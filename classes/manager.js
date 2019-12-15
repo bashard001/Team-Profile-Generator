@@ -17,7 +17,7 @@ class manager {
       }
     
       getRole() {
-        return "manager";
+        return "Manager";
       }
     
 
