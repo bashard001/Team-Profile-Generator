@@ -19,6 +19,9 @@ class manager {
       getRole() {
         return "Manager";
       }
+      getOfficeNumber(){
+          return this.officeNumber;
+      }
     
 
 }

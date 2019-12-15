@@ -3,7 +3,7 @@ const manager = require("./manager")
 class engineer extends manager{
     constructor(name, id, email, github){
         super(name, id, email);
-        this.github;
+        this.github = github;
     }
 
     getRole() {
